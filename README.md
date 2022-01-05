@@ -55,7 +55,7 @@ https://github.com/MiraclePlusBrain/ActivityToolkit/tree/main/Send%20New
 
 并在文件夹内创建三个新的空文件夹（add，history，mike），命名如下：
 
-![image-20220105115541497](C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105115541497.png)
+![image-20220105115541497](https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/1.png)
 
 其中send_accumulate为核心代码，三个空文件夹用来存放需要合并和去重的数据
 
@@ -65,7 +65,7 @@ https://github.com/MiraclePlusBrain/ActivityToolkit/tree/main/Send%20New
 
 【add】文件夹存放从pr或者活动组那里获得的数据，示例如下：
 
-![image-20220105143738341](C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105143738341.png)
+![image-20220105143738341](https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/2.png)
 
 放入其中的excel表格需要满足几个条件：第一行需要是列名、列名需要包含“手机”和“邮箱“
 
@@ -73,13 +73,13 @@ https://github.com/MiraclePlusBrain/ActivityToolkit/tree/main/Send%20New
 
 【history】文件夹存放由历史发票数据云盘下载的数据，示例如下：
 
-<img src="C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105145048929.png" alt="image-20220105145048929" style="zoom: 25%;" />
+<img src="https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/3.png" alt="image-20220105145048929" style="zoom: 25%;" />
 
 ##### 3、mike文件夹
 
 【mike】文件夹存放由麦克表单下载的数据，示例如下：
 
-![image-20220105145205686](C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105145205686.png)
+![image-20220105145205686](https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/4.png)
 
 放入其中的excel表格需要满足几个条件：第二行需要是列名（从麦克表单下载时这点**自然满足**）
 
@@ -87,7 +87,7 @@ https://github.com/MiraclePlusBrain/ActivityToolkit/tree/main/Send%20New
 
 打开add_info文件，向其中键入两个信息：
 
-<img src="C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105151030056.png" alt="image-20220105151030056" style="zoom:50%;" />
+<img src="https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/5.png" alt="image-20220105151030056" style="zoom:50%;" />
 
 第一行和第二行都表示此次活动的地点。第一行的”南京“用于在麦克表单的数据中搜索相应城市的报名数据（从麦克表单下载的部分数据也包含其它活动场次的报名，所以需要筛选提取一下）。第二行用于给发票数据存档文件命名。
 
@@ -103,7 +103,7 @@ https://github.com/MiraclePlusBrain/ActivityToolkit/tree/main/Send%20New
 
 运行代码之后，文件夹中会多出四个文件：
 
-<img src="C:\Users\Joshua. Mallison\AppData\Roaming\Typora\typora-user-images\image-20220105145929378.png" alt="image-20220105145929378" style="zoom:80%;" />
+<img src="https://github.com/MiraclePlusBrain/ActivityToolkit/blob/main/image-storage/6.png" alt="image-20220105145929378" style="zoom:80%;" />
 
 其中sendmail和sendtel可用于直接在阿里云平台上传（无需其他处理）
 
